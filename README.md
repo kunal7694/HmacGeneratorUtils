@@ -12,8 +12,7 @@ HmacMD5
 HmacSHA1
 HmacSHA256
 
-Uses:
-
+//Below is the use case to consume this utility
 String secerateKey = "0ea8d84f-fe73-4b2e-aaa3-f3f4063729e1-f4cf1c11-f044-4734-9052-a07811451964-b3dbc8a5-a548-4c46-a164-8c3b31c01b73-60fc36fd-a957-4986-a31e-c0071d34466d";
 String message = "secerateKey";
 String algorithm = "HmacSHA256";
