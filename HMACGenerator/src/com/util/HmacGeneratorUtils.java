@@ -69,8 +69,7 @@ public class HmacGeneratorUtils {
 
 	/**
 	 * Encodes given message String into a sequence of bytes using the given charset
-	 * and algorithm, storing the result into a new byte array.
-	 * 
+	 * and algorithm, storing the result into a new byte array and returns an instance of SecretKeySpec.
 	 * @param message
 	 * @param algorithm
 	 * @return SecretKeySpec
