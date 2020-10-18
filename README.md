@@ -18,12 +18,15 @@ String message = "secerateKey";
 String algorithm = "HmacSHA256";
 
 // Generate hash key based upon the given message, secerateKey, algorithm
+
 String hashKey = HmacGeneratorUtils.generateHashKey(message, secerateKey, algorithm);
 
 //Gives the Resulted hash key
+
 Generated Hash Key:- 7c43782a1b052f825cde27a9bb60d76a3f41c75986474530ac2640d13825a401
 
 Console Output:
+
 Oct 18, 2020 5:25:36 PM com.util.HmacGeneratorUtils generateHashKey
 INFO: Inside generateHashKey Method
 Oct 18, 2020 5:25:36 PM com.util.HmacGeneratorUtils getInstanceOfSecretKeySpec
